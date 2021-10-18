@@ -1,9 +1,9 @@
 {
-  "name": "ui-components",
+  "name": "@test-superapp/ui-components",
   "version": "0.0.1",
   "main": "./src/index.js",
   "license": "MIT",
-  "description": "",
+  "description": "UI Components for super-app",
   "scripts": {},
   "dependencies": {
     "react": "17.0.2",
@@ -25,5 +25,14 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olioss/test-superapp-ui-component.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/olioss/test-superapp-ui-component/issues"
+  },
+  "homepage": "https://github.com/olioss/test-superapp-ui-component#readme"
 }
