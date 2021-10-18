@@ -4,13 +4,10 @@
   "main": "./src/index.js",
   "license": "MIT",
   "description": "",
-  "scripts": {
-    "ios": "react-native run-ios --project-path \"./node_modules/superappcore/ios\""
-  },
+  "scripts": {},
   "dependencies": {
     "react": "17.0.2",
-    "react-native": "0.66.0",
-    "superappcore": "../superappcore"
+    "react-native": "0.66.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
