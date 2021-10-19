@@ -3,8 +3,8 @@ import { TouchableOpacity, Text } from 'react-native';
 
 const UiButton = (props) => {
   return (
-    <TouchableOpacity>
-      <Text>{props.title}</Text>
+    <TouchableOpacity style={{backgroundColor: '#d31145', padding: 10}} {...props}>
+      <Text style={{color: '#ffffff'}}>{props.title}</Text>
     </TouchableOpacity>
   );
 };
